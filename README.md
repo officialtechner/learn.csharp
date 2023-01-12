@@ -131,3 +131,44 @@ Operator Name Description Example Try it
     && 	Logical and	Returns True if both statements are true	x < 5 &&  x < 10
     || 	Logical or	Returns True if one of the statements is true	x < 5 || x < 4
     !	Logical not	Reverse the result, returns False if the result is true	!(x < 5 && x < 10)
+
+# Loop
+
+## For
+
+```
+for (statement 1; statement 2; statement 3)
+{
+  // code block to be executed
+}
+```
+
+## foreach Loop
+
+here is also a foreach loop, which is used exclusively to loop through elements in an array:
+
+```
+foreach (type variableName in arrayName)
+{
+  // code block to be executed
+}
+```
+
+## While Loop
+
+```
+while (condition)
+{
+  // code block to be executed
+}
+```
+
+### Do/While Loop
+
+```
+do
+{
+  // code block to be executed
+}
+while (condition);
+```
