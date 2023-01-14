@@ -172,3 +172,37 @@ do
 }
 while (condition);
 ```
+
+
+# Classes
+
+
+```
+class Car 
+{
+  string color = "red";
+}
+```
+
+When a variable is declared directly in a class, it is often referred to as a field (or attribute).
+
+
+## Create an Object
+
+```
+class Car 
+{
+  string color = "red";
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.color);
+  }
+}
+```
+
+An object is created from class.  new Car will create object.
+
+Note:
+We use the dot syntax (.) to access variables/fields inside a class (myObj.color).
